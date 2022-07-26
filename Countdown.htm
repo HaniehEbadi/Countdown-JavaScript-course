@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js" 
+        integrity="sha512-wT7uPE7tOP6w4o28u1DN775jYjHQApdBnib5Pho4RB0Pgd9y7eSkAV1BTqQydupYDB9GBhTcQQzyNMPMV3cAew==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer">
+    </script>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <h1>Countdown</h1>
+
+    <div id="description">
+        <p>This is a Countdown project with JavaScript</p>
+    </div>
+
+    <div id="counter">
+        <div id="minute">
+            2:
+        </div>
+        <div id="second">
+            00.
+        </div>
+        <div id="miliSecond">
+            00
+        </div>
+    </div>
+
+    <div id="buttons">
+        <button onclick="start()" type="button" name="start" class="start">Start</button>
+        <button onclick="stop()" type="button" name="stop" class="stop">Stop</button>
+        <button onclick="reset()" type="button" name="reset" class="reset">reset</button>
+    </div>
+
+</body>
+</html>
